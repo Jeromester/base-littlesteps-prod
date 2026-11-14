@@ -1,0 +1,6 @@
+{
+  "name": "little-steps-tutorial",
+  "private": true,
+  "scripts": { "record": "node record.js" },
+  "dependencies": { "playwright-core": "1.47.2", "ffmpeg-static": "5.2.0" }
+}

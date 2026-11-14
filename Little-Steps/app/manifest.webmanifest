@@ -1,0 +1,14 @@
+{
+  "name": "Little Steps",
+  "short_name": "Little Steps",
+  "description": "Every little step is a big milestone.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf6ef",
+  "theme_color": "#fbf6ef",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

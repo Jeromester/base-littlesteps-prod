@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Little Steps</title>
+  <meta name="description" content="Every little step is a big milestone. A gentle baby tracker for Filipino families.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#fbf6ef">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Little Steps">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="app"><p class="loading">Little Steps</p></div>
+  <div id="sheet-root"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <input type="file" id="import-file" accept="application/json,.json" hidden>
+
+  <datalist id="relations">
+    <option value="Mama"><option value="Papa"><option value="Lola"><option value="Lolo">
+    <option value="Tita"><option value="Tito"><option value="Ate"><option value="Kuya"><option value="Yaya">
+  </datalist>
+  <datalist id="vax-places">
+    <option value="Barangay health center"><option value="Pediatrician's clinic"><option value="Hospital">
+  </datalist>
+
+  <noscript>Little Steps needs JavaScript turned on.</noscript>
+  <script src="js/who-data.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
